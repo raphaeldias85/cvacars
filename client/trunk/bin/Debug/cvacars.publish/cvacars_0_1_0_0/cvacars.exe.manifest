@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="cvacars.exe" version="0.1.0.0" publicKeyToken="1b96a280dcb1114f" language="en-US" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="cvacars" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="cvacars.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="cvacars.exe" size="61440">
+      <assemblyIdentity name="cvacars" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>k8aRmd99X2/wIipd3kHKCnfNOdY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="cvacars.exe.config" size="806">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RkxJR6BtbhEZ+FqX6l/SzNN8Buc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BLADE\Matthew J. Kosmoski" issuerKeyHash="5391c5a2a8f50cd1053ec5112d9332b90308f51f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gOadL/UchxdVwP516z1T/gTqapI=</DigestValue></Reference></SignedInfo><SignatureValue>UkU7EFwGk8yJMYOz7bZYyX+lmy6PU/yBUAAC/g/9f6MKDFErb7MOjsI2a2V52CkqfOlKPBfR/CaQIAefITOq8T3DKgZwWjTMw9fTx5g1xDVimvOvzYn91H9oeu+TzUiqAVWqKhb2ZO/fuA1jtzS41JToGTWvX1u0k/E+RFzkrB0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vl/VdUkhDscif57vmpTyQavCaSiH6YhTlGJQg0EurcjbdasaUImdI+u8Vg/n/u6AWIIAKSoLE+lyaXKKGJweNCnSftJT5WJTmjnelzlwouLMt0hkXdD4DjxKg7Li3wULzOKFOtwdLf3rNqEp9odUevB+Qhd4/6dC8ybYHVZZpkk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="926aea04fe533deb75fec05517871cf52f9de680" Description="" Url=""><as:assemblyIdentity name="cvacars.exe" version="0.1.0.0" publicKeyToken="1b96a280dcb1114f" language="en-US" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BLADE\Matthew J. Kosmoski</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ZXFoB1e9SGIbBvjWYgLfYALQugE=</DigestValue></Reference></SignedInfo><SignatureValue>SCMI/Qf6zQDgXWM26ZKJvdz5D+sm1uOWTi3rFBViZMrLG2cyH0Br53IIe3kd0Za43Po3NOCiDMUqSinUV8HZGjniLm3zmb83OogVJ65dXftKdOuvmrjo/H15tfNY0q0IJAyL7iq3Wlp/ybztMSEfvItsL7ys8DhKyZmJdNH2AKM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vl/VdUkhDscif57vmpTyQavCaSiH6YhTlGJQg0EurcjbdasaUImdI+u8Vg/n/u6AWIIAKSoLE+lyaXKKGJweNCnSftJT5WJTmjnelzlwouLMt0hkXdD4DjxKg7Li3wULzOKFOtwdLf3rNqEp9odUevB+Qhd4/6dC8ybYHVZZpkk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAWKgAwIBAgIQn9ooNW4A+aVIK5DrmhUnwTAJBgUrDgMCHQUAMD0xOzA5BgNVBAMeMgBCAEwAQQBEAEUAXABNAGEAdAB0AGgAZQB3ACAASgAuACAASwBvAHMAbQBvAHMAawBpMB4XDTA3MDkwMTA1MTg1OFoXDTA4MDgzMTExMTg1OFowPTE7MDkGA1UEAx4yAEIATABBAEQARQBcAE0AYQB0AHQAaABlAHcAIABKAC4AIABLAG8AcwBtAG8AcwBrAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL5f1XVJIQ7HIn+e75qU8kGrwmkoh+mIU5RiUINBLq3I23WrGlCJnSPrvFYP5/7ugFiCACkqCxPpcmlyihicHjQp0n7SU+ViU5o53pc5cKLizLdIZF3Q+A48SoOy4t8FC8zihTrcHS396zahKfaHVHrwfkIXeP+nQvMm2B1WWaZJAgMBAAEwCQYFKw4DAh0FAAOBgQBj8jIrwf4D7JZC6r7QoOuJxe2gctE99UNSIpw0dtVlXtWCv/l7mxDBdO1HpNUgTmxP8XH2p/YUHOMRTK+YfwMYpQIo1HNZ1x3qIP265mIqtIT2XByKmUGlvMiuIi3M4+wB+uR6esUOTgKZ9irYfr3iX4LiPevInKIvr4DDw37eZQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
