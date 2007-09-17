@@ -1,3 +1,6 @@
+#define CONSOLEDEBUG
+//#define LOGDEBUG
+
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -55,9 +58,13 @@ namespace cvacars
             try
             {
                 Byte[] data = System.Text.Encoding.ASCII.GetBytes(message);
+#if CONSOLEDEBUG
                 System.Console.WriteLine("SENDING: " + message);
+#endif
                 stream.Write(data, 0, data.Length);
+#if CONSOLEDEBUG
                 System.Console.WriteLine("SENT!");
+#endif
                 string response = "";
                 while (stream.DataAvailable)
                 {
@@ -70,7 +77,9 @@ namespace cvacars
             }
             catch (Exception ex)
             {
+#if CONSOLEDEBUG
                 System.Console.WriteLine(ex.Message);
+#endif
                 return "";
             }
         }
