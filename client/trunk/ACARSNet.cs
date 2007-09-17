@@ -66,6 +66,10 @@ namespace cvacars
                 System.Console.WriteLine("SENT!");
 #endif
                 string response = "";
+                while (!stream.DataAvailable)
+                {
+                    System.Threading.Thread.Sleep(50);
+                }
                 while (stream.DataAvailable)
                 {
                     byte[] a = new byte[1];
