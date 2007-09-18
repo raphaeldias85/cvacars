@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("libcvacars")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("ARG Services, Inc.")]
+[assembly: AssemblyCompany("KosmoTech")]
 [assembly: AssemblyProduct("libcvacars")]
-[assembly: AssemblyCopyright("Copyright © ARG Services, Inc. 2007")]
+[assembly: AssemblyCopyright("Copyright © KosmoTech 2007")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

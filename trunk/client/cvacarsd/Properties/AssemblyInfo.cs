@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("cvacarsd")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("cvacars server")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("ARG Services, Inc.")]
+[assembly: AssemblyCompany("KosmoTech")]
 [assembly: AssemblyProduct("cvacarsd")]
-[assembly: AssemblyCopyright("Copyright © ARG Services, Inc. 2007")]
+[assembly: AssemblyCopyright("Copyright © KosmoTech 2007")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("cvacars")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("ACARS Client for MS Flight Simulator")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("ARG Services, Inc.")]
+[assembly: AssemblyCompany("KosmoTech")]
 [assembly: AssemblyProduct("cvacars")]
-[assembly: AssemblyCopyright("Copyright © ARG Services, Inc. 2007")]
+[assembly: AssemblyCopyright("Copyright © KosmoTech 2007")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
