@@ -1,5 +1,5 @@
 SCC = This is a Source Code Control file
 
-[cvacars.sln]
+[cvacars.csproj]
 SCC_Aux_Path = "C:\VSS\MJK"
-SCC_Project_Name = "$/cvacars.root/cvacars", SAAAAAAA
+SCC_Project_Name = "$/cvacars.root/cvacars/cvacars", VAAAAAAA
