@@ -1,14 +1,15 @@
 #summary CVACARS 0.1 Requirements
 #labels Phase-Requirements,Milestone-0.1prealpha,Featured
 
-= Introduction =
+== Introduction ==
 
 This is an overview of the initial requirements for the 0.1 CVACARS
 
 
-= Details =
-
-Objectives
-  * TBD
-
-
+== Details ==
+=== Objectives ===
+  * Pilot login with website credentials
+  * Pilot PIREP submission
+  * Logbook retrieval
+  * Basic dispatch capabilities (Provide dispatch release, print)
+  * Basic weather capabilities (METAR, TAF)
