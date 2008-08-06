@@ -15,7 +15,6 @@ In order for this development to remain on track, the following road map of goal
   * *STAND-ALONE MODULE*
   * Communications protocol draft written and implemented in libcvacars
   * Pilot PIREP submission implemented
-  * E-Mail/PM message system between pilots
   * Show pilots online using CVACARS
   * Simple flight dispatch system
   * METAR for flight from VATSIM
@@ -24,6 +23,7 @@ In order for this development to remain on track, the following road map of goal
 === 0.2 ===
 
   * Dispatch print ability
+  * E-Mail/PM message system between pilots
   * VATSIM flight plan submission
   * Automated updater
 
